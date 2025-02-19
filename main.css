@@ -1,0 +1,139 @@
+.block1 {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu {
+    width: 200px;
+}
+
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.125em;
+    margin-bottom: 8px;
+    padding: 12px 25px;
+}
+
+.block1 .menu a:hover,
+.block1 .menu a.active {
+    color: #000000;
+    font-weight: bold;
+    background-color: #ede765;
+    border-radius: 20px;
+}
+.block1 .items {
+    padding-left: 25px;
+}
+
+.block1 .items .sort {
+    margin-bottom: 25px;
+}
+.block1 .items .sort p {
+    color: #ede765;
+    font-size: 1.000em;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.block1 .items .sort p a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    width: 55px;
+    background-position: 100% 50%;
+}
+.block1 .items .sort p a:hover,
+.block1 .items .sort p a:active {
+    color: #ede765;
+    font-weight: 600;
+    background-position: 100% 50%;
+}
+
+.block1 .items .boxes {
+    flex-wrap: wrap;
+}
+
+.block1 .items .boxes .box {
+    margin-bottom: 28px;
+}
+
+.block1 .items .box figure figcaption {
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.block1 .items .box figure figcaption p {
+    font-size: 0.938em;
+}
+.block1 .items .box figure figcaption p span {
+    font-size: 1.350em;
+    font-weight: 600;
+}
+
+.block1 .items .box .title {
+    color: #ffffff;
+    font-size: 0.875em;
+    padding-left: 23px;
+    margin-top: 10px;
+}
+
+.block1 .items .box button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #dfa52b;
+    color: #ffffff;
+    margin-top: 15px;
+    border: none;
+}
+
+.block1 .items .box button:hover {
+    cursor: pointer;
+}
+
+.block1 .items .pagination {
+    text-align: center;
+}
+
+.block1 .items .pagination a {
+    margin: 0 20px;
+    color: #ffffff;
+}
+
+.block1 .items .pagination a:hover,
+.block1 .items .pagination a:active {
+    color: #ede765;
+    font-weight: 900;
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
